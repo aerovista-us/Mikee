@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-neutral-900 text-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mikee Gray | Pro Snowboarder</title>
+    <meta name="description" content="Official site of Mikee Gray - Professional Snowboarder, Traveler, and Golf Enthusiast. Explore sponsor brands, media, and booking info." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet" />
+    <style>
+      html {
+        font-family: 'Outfit', sans-serif;
+      }
+      h1, h2 {
+        font-family: 'Anton', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="antialiased tracking-tight leading-relaxed">
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('https://via.placeholder.com/1600x900?text=Mikee+Snowboarding')] bg-cover bg-center bg-no-repeat relative">
+      <div class="absolute inset-0 bg-black bg-opacity-60 backdrop-blur-sm"></div>
+      <div class="relative z-10 max-w-4xl">
+        <h1 class="text-5xl md:text-7xl font-black uppercase text-accent mb-4">Mikee Gray</h1>
+        <p class="text-xl md:text-2xl max-w-xl mx-auto text-gray-300 mb-6">Pro Snowboarder · Traveler · Golf Enthusiast</p>
+        <a href="#sponsors" class="inline-block mt-2 px-6 py-3 rounded-lg bg-accent text-black font-bold text-lg hover:scale-105 transition">Meet My Sponsors</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="py-20 bg-neutral-950 px-6">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-accent mb-4">About Mikee</h2>
+        <p class="text-lg text-gray-300">
+          Based in the Pacific Northwest, Mikee Gray brings adrenaline to the slopes and chill vibes to the green. A rider for top-tier brands, Mikee merges passion with precision — on snow, in the air, or during a quiet round of golf.
+        </p>
+      </div>
+    </section>
+
+    <!-- Highlight Media -->
+    <section class="py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <div class="aspect-w-16 aspect-h-9 bg-black rounded-xl overflow-hidden shadow-lg">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/DlpVOTrcS-g" title="Mikee Gray Highlight Reel" allowfullscreen></iframe>
+        </div>
+        <p class="mt-4 text-center text-sm text-gray-400">Highlight reel · YouTube</p>
+      </div>
+    </section>
+
+    <!-- Sponsors -->
+<section id="sponsors" class="py-20 px-6 bg-neutral-800">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">Sponsors & Partners</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center">
+      
+      <!-- Signal Snowboards -->
+      <a href="https://www.signalsnowboards.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/logos/Signal-snowboards.gif" 
+             alt="Signal Snowboards Logo" 
+             class="mx-auto max-h-16 object-contain" />
+      </a>
+
+      <!-- Big Bear Mountain Resort -->
+      <a href="https://www.bigbearmountainresort.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/logos/big-bear-mountain.png" 
+             alt="Big Bear Mountain Resort Logo" 
+             class="mx-auto max-h-16 object-contain" />
+      </a>
+
+      <!-- Union Binding Company -->
+      <a href="https://www.unionbindingcompany.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/logos/union-binding.webp" 
+             alt="Union Binding Company Logo" 
+             class="mx-auto max-h-16 object-contain" />
+      </a>
+
+      <!-- Wend Waxworks -->
+      <a href="https://wendperformance.com/" target="_blank" rel="noopener noreferrer">
+        <img src="assets/logos/wend-waxworks.webp" 
+             alt="Wend Waxworks Logo" 
+             class="mx-auto max-h-16 object-contain" />
+	</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="py-20 px-6 text-center bg-neutral-950">
+      <div class="max-w-xl mx-auto">
+        <h2 class="text-3xl font-bold text-accent mb-4">Get in Touch</h2>
+        <p class="text-gray-300 mb-6">
+          Want to collaborate, feature Mikee, or learn more about his gear? Reach out directly or connect on social.
+        </p>
+        <a href="mailto:contact@mikeegray.com" class="inline-block px-6 py-3 bg-accent text-black rounded-md font-semibold text-lg hover:scale-105 transition">
+          Contact Mikee
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 text-center text-gray-500 text-sm">
+      <p>© 2025 Mike E. Gray. All rights reserved.</p>
+      <p>Follow on <a href="https://www.instagram.com/mikeegray/" class="text-accent underline">Instagram</a></p>
+    </footer>
+
+    <!-- Accent Color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              accent: '#00E6FF' // Customize this color to match Mikee’s brand/gear
+            }
+          }
+        }
+      }
+    </script>
+
+  </body>
+</html>
